@@ -1,0 +1,21 @@
+﻿[
+{
+    "guid":  "b8f1c2ae-6f3d-4b7a-9e21-4c8d0a5e7f19",
+    "name":  "DebridHub",
+    "description":  "Replaces the *arr stack: direct streaming via self-refreshing .strm files, batch downloads, Torznab search, a watchlist, a Seerr/Jellyseerr request webhook, and a library organizer.",
+    "overview":  "Stream and batch-download from Real-Debrid / AllDebrid inside Jellyfin.",
+    "owner":  "Everillangel",
+    "category":  "General",
+    "imageUrl":  "",
+    "versions":  [
+                     {
+                         "version":  "1.0.0.0",
+                         "changelog":  "Initial release.",
+                         "targetAbi":  "10.10.0.0",
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.0.0.0/debridhub_1.0.0.0.zip",
+                         "checksum":  "9ee21717bb294fe0b3bb38a435905c00",
+                         "timestamp":  "2026-07-15T12:23:58Z"
+                     }
+                 ]
+}
+]
