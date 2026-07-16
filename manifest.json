@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.0.0.0",
-                         "changelog":  "Initial release.",
+                         "version":  "1.1.0.0",
+                         "changelog":  "Automatic Jellyfin library scan when new media lands; fast polling of pending grabs (seconds instead of up to 30 min); Seerr webhook now responds immediately and grabs in the background.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.0.0.0/debridhub_1.0.0.0.zip",
-                         "checksum":  "a15dd85bd916e4f0686377337fbdb80f",
-                         "timestamp":  "2026-07-15T12:32:40Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.1.0.0/debridhub_1.1.0.0.zip",
+                         "checksum":  "f933683275c605880a719a8e4a9c53a1",
+                         "timestamp":  "2026-07-16T14:39:04Z"
                      }
                  ]
 }
