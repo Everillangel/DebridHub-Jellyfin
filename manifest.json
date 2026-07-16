@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.1.0.0",
-                         "changelog":  "Automatic Jellyfin library scan when new media lands; fast polling of pending grabs (seconds instead of up to 30 min); Seerr webhook now responds immediately and grabs in the background.",
+                         "version":  "1.2.0.0",
+                         "changelog":  "Identify media from embedded container tags (ffprobe) before falling back to filename parsing - fixes ripped files whose names lack the show/season. Added configurable import folders so any folder can be auto-organized, with safety excludes for the stream folder, download folder and lost+found.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.1.0.0/debridhub_1.1.0.0.zip",
-                         "checksum":  "f933683275c605880a719a8e4a9c53a1",
-                         "timestamp":  "2026-07-16T14:39:04Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.2.0.0/debridhub_1.2.0.0.zip",
+                         "checksum":  "708f7f766175b2cc1c7aa6b3f3cc7fc4",
+                         "timestamp":  "2026-07-16T15:11:27Z"
                      }
                  ]
 }
