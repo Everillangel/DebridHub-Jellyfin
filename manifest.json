@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.4.0.0",
-                         "changelog":  "Fixes shows being misfiled as movies: the organizer no longer treats unrecognised files as movies. It now identifies from embedded tags, then the filename, then the folder structure (show/season folders), and leaves anything it cannot identify exactly where it is. A movie now requires a year as evidence. Added a Preview organize button that shows what would move before anything moves.",
+                         "version":  "1.5.0.0",
+                         "changelog":  "The DebridHub dashboard now has its own entry in the Jellyfin admin menu, instead of being buried under Plugins - DebridHub - Open Dashboard.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.4.0.0/debridhub_1.4.0.0.zip",
-                         "checksum":  "2fa8f2ae3a1990cc97fd3e9a37f91c71",
-                         "timestamp":  "2026-07-17T07:00:37Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.5.0.0/debridhub_1.5.0.0.zip",
+                         "checksum":  "ec3b5bbbe2c87b3dad975c887c4ed69e",
+                         "timestamp":  "2026-07-17T07:04:26Z"
                      }
                  ]
 }
