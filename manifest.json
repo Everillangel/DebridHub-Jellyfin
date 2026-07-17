@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.5.0.0",
-                         "changelog":  "The DebridHub dashboard now has its own entry in the Jellyfin admin menu, instead of being buried under Plugins - DebridHub - Open Dashboard.",
+                         "version":  "1.6.0.0",
+                         "changelog":  "Fixes episode durations reading as zero (and episodes being wrongly marked watched) after scanning large season packs. Torrent info is now cached per torrent instead of fetched once per file - a 300-file pack made 300 identical API calls during a scan and tripped Real-Debrid rate limiting. Resolved links are cached for 6 hours, and rate-limit responses now back off and retry instead of failing.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.5.0.0/debridhub_1.5.0.0.zip",
-                         "checksum":  "ec3b5bbbe2c87b3dad975c887c4ed69e",
-                         "timestamp":  "2026-07-17T07:04:26Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.6.0.0/debridhub_1.6.0.0.zip",
+                         "checksum":  "512d6d0509ed57444cf8f32bfbc7bb6a",
+                         "timestamp":  "2026-07-17T12:04:45Z"
                      }
                  ]
 }
