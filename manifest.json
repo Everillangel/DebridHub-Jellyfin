@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.10.0.0",
-                         "changelog":  "Stops grabbing the wrong show. Indexers loose-match, so a search could return unrelated releases (e.g. JoJo/Iseyuru for Adventure Time). DebridHub now verifies each result actually matches the requested title and exact season+episode (or year for movies) before grabbing, and logs when results were found but none matched.",
+                         "version":  "1.11.0.0",
+                         "changelog":  "Adds TorBox as a debrid provider alongside Real-Debrid and AllDebrid. Pick it in settings and paste your TorBox API key. Implements add-magnet, torrent list/status, per-file download links (requestdl) and delete against the TorBox v1 API.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.10.0.0/debridhub_1.10.0.0.zip",
-                         "checksum":  "fe60cb78b42a7cf565b6e7290f09db5c",
-                         "timestamp":  "2026-07-18T15:07:20Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.11.0.0/debridhub_1.11.0.0.zip",
+                         "checksum":  "2af2ecb8974c27020597a9ff91200a4a",
+                         "timestamp":  "2026-07-18T15:17:56Z"
                      }
                  ]
 }
