@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.7.0.0",
-                         "changelog":  "Removes the matching .strm file when a download of the same item completes, so nothing appears twice in Jellyfin (toggle in settings). Added diagnostic logging to the watchlist/grab path so it is clear when a grab is skipped (no API key, no indexer URL, or no indexer results) instead of failing silently.",
+                         "version":  "1.8.0.0",
+                         "changelog":  "Fixes watchlist/Seerr grabs failing at the add-magnet step. AddMagnet (and selectFiles) now back off and retry on Real-Debrid rate limiting like the read calls do, and on failure report Real-Debrids actual error (e.g. permission_denied, too_many_requests) instead of a generic HTTP error.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.7.0.0/debridhub_1.7.0.0.zip",
-                         "checksum":  "10e610630134f12a8da5cc092017400c",
-                         "timestamp":  "2026-07-18T12:02:08Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.8.0.0/debridhub_1.8.0.0.zip",
+                         "checksum":  "a61c1dac4f6cd43b2e95741578e2f991",
+                         "timestamp":  "2026-07-18T14:10:21Z"
                      }
                  ]
 }
