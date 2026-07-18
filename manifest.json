@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.8.0.0",
-                         "changelog":  "Fixes watchlist/Seerr grabs failing at the add-magnet step. AddMagnet (and selectFiles) now back off and retry on Real-Debrid rate limiting like the read calls do, and on failure report Real-Debrids actual error (e.g. permission_denied, too_many_requests) instead of a generic HTTP error.",
+                         "version":  "1.9.0.0",
+                         "changelog":  "When Real-Debrid rejects a torrent (its copyright filter returns infringing_file), DebridHub now automatically tries the next-best release for the same episode/movie instead of giving up. RD blocks per torrent hash, so an alternate release of the same content usually goes through.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.8.0.0/debridhub_1.8.0.0.zip",
-                         "checksum":  "a61c1dac4f6cd43b2e95741578e2f991",
-                         "timestamp":  "2026-07-18T14:10:21Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.9.0.0/debridhub_1.9.0.0.zip",
+                         "checksum":  "192898e00280412734a80bca89001e77",
+                         "timestamp":  "2026-07-18T14:23:13Z"
                      }
                  ]
 }
