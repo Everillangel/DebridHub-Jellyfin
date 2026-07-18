@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.9.0.0",
-                         "changelog":  "When Real-Debrid rejects a torrent (its copyright filter returns infringing_file), DebridHub now automatically tries the next-best release for the same episode/movie instead of giving up. RD blocks per torrent hash, so an alternate release of the same content usually goes through.",
+                         "version":  "1.10.0.0",
+                         "changelog":  "Stops grabbing the wrong show. Indexers loose-match, so a search could return unrelated releases (e.g. JoJo/Iseyuru for Adventure Time). DebridHub now verifies each result actually matches the requested title and exact season+episode (or year for movies) before grabbing, and logs when results were found but none matched.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.9.0.0/debridhub_1.9.0.0.zip",
-                         "checksum":  "192898e00280412734a80bca89001e77",
-                         "timestamp":  "2026-07-18T14:23:13Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.10.0.0/debridhub_1.10.0.0.zip",
+                         "checksum":  "fe60cb78b42a7cf565b6e7290f09db5c",
+                         "timestamp":  "2026-07-18T15:07:20Z"
                      }
                  ]
 }
