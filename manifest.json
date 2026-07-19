@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.15.0.0",
-                         "changelog":  "Fixes id-based search grabbing the wrong show (e.g. Sand Land for CSI: NY). Jackett aggregates forward a tvdbid/imdbid search to indexers that ignore it and return junk, so DebridHub now verifies each result against the shows known titles from TMDb (all languages) in addition to the season/episode. Foreign-titled releases still match via TMDb alternate titles; unrelated shows sharing an episode number are rejected.",
+                         "version":  "1.16.0.0",
+                         "changelog":  "Fixes Request failed shown when deleting a torrent, removing a watchlist item, or clearing finished downloads. These endpoints returned an empty 204 response that the dashboard could not parse as JSON, so a successful action was reported as a failure. They now return a small JSON body.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.15.0.0/debridhub_1.15.0.0.zip",
-                         "checksum":  "134c773aa06d72cc7e6647061c4d9fb9",
-                         "timestamp":  "2026-07-19T08:43:20Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.16.0.0/debridhub_1.16.0.0.zip",
+                         "checksum":  "8ccd4c9a85ba4da13eb52ae2424725cb",
+                         "timestamp":  "2026-07-19T08:59:46Z"
                      }
                  ]
 }
