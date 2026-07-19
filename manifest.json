@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.13.0.0",
-                         "changelog":  "ID-based matching for non-English content. With a TMDb API key set, Seerr requests resolve to TVDb/IMDb ids and DebridHub searches the indexer by id and matches on season/episode - so foreign-titled releases (Shingeki no Kyojin for Attack on Titan) are found and wrong shows are not grabbed. Falls back to title-text matching when no TMDb key or id is available.",
+                         "version":  "1.14.0.0",
+                         "changelog":  "Fixes deleting a torrent on TorBox (the torrent id was sent as a quoted string; TorBox expects a number). Delete failures now show the providers actual reason instead of a generic error.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.13.0.0/debridhub_1.13.0.0.zip",
-                         "checksum":  "430d62f5605464a7e87b303b38ac283a",
-                         "timestamp":  "2026-07-19T08:18:24Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.14.0.0/debridhub_1.14.0.0.zip",
+                         "checksum":  "bc4389504f4e6adbb7647d646e43fc29",
+                         "timestamp":  "2026-07-19T08:39:16Z"
                      }
                  ]
 }
