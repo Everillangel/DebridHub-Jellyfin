@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.14.0.0",
-                         "changelog":  "Fixes deleting a torrent on TorBox (the torrent id was sent as a quoted string; TorBox expects a number). Delete failures now show the providers actual reason instead of a generic error.",
+                         "version":  "1.15.0.0",
+                         "changelog":  "Fixes id-based search grabbing the wrong show (e.g. Sand Land for CSI: NY). Jackett aggregates forward a tvdbid/imdbid search to indexers that ignore it and return junk, so DebridHub now verifies each result against the shows known titles from TMDb (all languages) in addition to the season/episode. Foreign-titled releases still match via TMDb alternate titles; unrelated shows sharing an episode number are rejected.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.14.0.0/debridhub_1.14.0.0.zip",
-                         "checksum":  "bc4389504f4e6adbb7647d646e43fc29",
-                         "timestamp":  "2026-07-19T08:39:16Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.15.0.0/debridhub_1.15.0.0.zip",
+                         "checksum":  "134c773aa06d72cc7e6647061c4d9fb9",
+                         "timestamp":  "2026-07-19T08:43:20Z"
                      }
                  ]
 }
