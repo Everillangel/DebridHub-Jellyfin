@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.11.0.0",
-                         "changelog":  "Adds TorBox as a debrid provider alongside Real-Debrid and AllDebrid. Pick it in settings and paste your TorBox API key. Implements add-magnet, torrent list/status, per-file download links (requestdl) and delete against the TorBox v1 API.",
+                         "version":  "1.12.0.0",
+                         "changelog":  "Adds a preferred-quality setting (default 1080p). Watchlist and Seerr grabs now prefer that resolution and fall back to the best available only if none match, instead of just taking the highest-seeded (often 720p) release.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.11.0.0/debridhub_1.11.0.0.zip",
-                         "checksum":  "2af2ecb8974c27020597a9ff91200a4a",
-                         "timestamp":  "2026-07-18T15:17:56Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.12.0.0/debridhub_1.12.0.0.zip",
+                         "checksum":  "aa3cb6537fb4c3c42a29cf40b4ec3006",
+                         "timestamp":  "2026-07-19T08:11:26Z"
                      }
                  ]
 }
