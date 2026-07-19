@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.12.0.0",
-                         "changelog":  "Adds a preferred-quality setting (default 1080p). Watchlist and Seerr grabs now prefer that resolution and fall back to the best available only if none match, instead of just taking the highest-seeded (often 720p) release.",
+                         "version":  "1.13.0.0",
+                         "changelog":  "ID-based matching for non-English content. With a TMDb API key set, Seerr requests resolve to TVDb/IMDb ids and DebridHub searches the indexer by id and matches on season/episode - so foreign-titled releases (Shingeki no Kyojin for Attack on Titan) are found and wrong shows are not grabbed. Falls back to title-text matching when no TMDb key or id is available.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.12.0.0/debridhub_1.12.0.0.zip",
-                         "checksum":  "aa3cb6537fb4c3c42a29cf40b4ec3006",
-                         "timestamp":  "2026-07-19T08:11:26Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.13.0.0/debridhub_1.13.0.0.zip",
+                         "checksum":  "430d62f5605464a7e87b303b38ac283a",
+                         "timestamp":  "2026-07-19T08:18:24Z"
                      }
                  ]
 }
