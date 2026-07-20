@@ -9,12 +9,12 @@
     "imageUrl":  "",
     "versions":  [
                      {
-                         "version":  "1.16.0.0",
-                         "changelog":  "Fixes Request failed shown when deleting a torrent, removing a watchlist item, or clearing finished downloads. These endpoints returned an empty 204 response that the dashboard could not parse as JSON, so a successful action was reported as a failure. They now return a small JSON body.",
+                         "version":  "1.17.0.0",
+                         "changelog":  "Better organisation of media grabbed from the debrid service: a file named only S01E05.mkv inside a torrent now takes its show title from the torrent name, so streams and downloads land in the correct Show/Season paths and mirror each other. Files that still cannot be identified are left in a flat folder rather than guessed into Movies or Shows.",
                          "targetAbi":  "10.10.0.0",
-                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.16.0.0/debridhub_1.16.0.0.zip",
-                         "checksum":  "8ccd4c9a85ba4da13eb52ae2424725cb",
-                         "timestamp":  "2026-07-19T08:59:46Z"
+                         "sourceUrl":  "https://github.com/Everillangel/DebridHub-Jellyfin/releases/download/v1.17.0.0/debridhub_1.17.0.0.zip",
+                         "checksum":  "805641bc7956343c736879ac412167c5",
+                         "timestamp":  "2026-07-20T13:23:59Z"
                      }
                  ]
 }
